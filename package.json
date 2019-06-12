@@ -10,8 +10,7 @@
     "build": "tsc",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
-    "posttest": "npm run check",
-    "prepublish": "npm run build"
+    "posttest": "npm run check"
   },
   "keywords": [
     "node",
@@ -21,7 +20,7 @@
     "auto-push",
     "server-push"
   ],
-  "author": "Himanshu Mittal <mittal01091997@gmail.com>",
+  "author": "Himanshu Mittal <himittal09@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
@@ -40,5 +39,16 @@
     "README.md",
     "CONTRIBUTING.md",
     "build/src"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mittal01091997/express-auto-push.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mittal01091997/express-auto-push/issues"
+  },
+  "homepage": "https://github.com/mittal01091997/express-auto-push#readme"
 }
